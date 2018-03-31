@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '11.0'
   s.source_files = 'SampleFramework/*.{swift}'
   s.frameworks = 'Foundation'
+  s.swift_version = '4'
 end
